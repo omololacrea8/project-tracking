@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding:0 ;
+    font-size: 1.125rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+.division{
+    width:50%;
+    float: left;
+    display: inline-block
+}
+.image{
+    padding: 10% 0 0 25%
+}
+
+.spanning {
+    width: 60%;
+    margin: 0 auto;
+    padding: 15% 0 5% 10%;
+}
+.spanning h1{
+    width: 70%;
+    color: #242942;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3em;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.spanning  span{
+    color: #FFF;
+    background-color: #242942;
+    border-radius: 45%;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700
+}
+
+.spanning .mono{
+        display: inline;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        color: #ACACAE;
+        font-size: 1rem
+}
+
+.spanning .mono-p{
+    width: 60%;
+    color: #5b5f71
+}
+.btn{
+   
+    width: 70%;
+    margin: 0 auto;
+    padding: 5% 0 0 5%
+}
+
+.btn Button {
+    position: relative;
+    left: 10%;
+	background-color:#ff5d5d;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: .1rem;
+	font-size:17px;
+	font-weight:bold;
+	padding:20px 30px;
+	text-decoration:none;
+    border: none
+}
+.btn Button:hover {
+	background-color:#fa8787;
+}
+.btn Button:active {
+	position:relative;
+	top:1px;
+}
+
+.btn a{
+    position: relative;
+    left: 15%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #868686;
+    letter-spacing: .2rem;
+    font-size: .8rem
+}
+
+.division-one{
+    width:50%;
+    float: left;
+    text-align: center
+}
+
+.division-one img{
+    width: 100%;
+    position: relative;
+    top: 150px;
+}
+
+.division-one ul{
+    padding-top: 50px;
+}
+
+.division-one ul li{
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    margin: 0 40px;
+    text-transform: uppercase;
+    
+}
+
+.division-one ul li a{
+    text-decoration: none;
+    color: #242942;
+    letter-spacing: .1rem
+} 
+
+.division-one ul li a:hover{
+    text-decoration: underline;
+}
+.division-one .dotted-circle{
+    width: 7px;
+    height: 7px;
+    background-color: #CDD2D6;
+    border-radius: 50%;
+    display: inline-block;
+}
+.division-one .col{
+    color: #8E929B;
+}
+.product{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    height: 50%;
+    border-bottom-left-radius: 20%;
+    background-color: #EEF3F6;
+    z-index: -1
+}
